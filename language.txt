@@ -1,0 +1,13 @@
+E -> T
+E -> T E
+T -> F
+T -> F*
+T -> F + T
+T -> F?
+F -> /v
+F -> v
+F -> (E)
+F -> .
+F -> v|w
+
+E=expression T=term F=factor
